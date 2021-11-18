@@ -3,12 +3,13 @@ Python server and client scripts that utilize socket programming (TCP). Clients 
 
 ## How to use
 1. Run serverchat.py with at least Python3. Download python: https://www.python.org/downloads/
-2. Run clientchat.py with arguments "*yourUsrname* chat://localhost:*portNumber*"
+2. Run clientchat.py with arguments "*yourUsrname* chat://localhost:*portNumber*"  
+- - replace *portNumber* with the port number the serverchat displays
 > Ex. python3 clientchat.py Brendan chat://localhost:12345
 
   
 Note: You may connect up to 20 clients to the server  
-To receive messages from other clients, you must be following a topic in their message
+To receive messages from other clients, you must be following a topic in their message  
 By default, all clients follow @all and @*yourUsrname*. You cannot unfollow these terms.  
 
 
